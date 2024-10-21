@@ -363,7 +363,7 @@ class _HomepageState extends State<Homepage> {
                         Text(
                           'Home',
                           style: TextStyle(
-                              fontSize: screenSize.height * 0.035,
+                              fontSize: screenSize.height * 0.03,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
                         ),

@@ -16,7 +16,7 @@ Container dashboardTile(Size screenSize, String title, String totalDate,
     width: screenSize.width * 0.3,
     height: screenSize.height * 0.101,
     child: Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(6.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -50,13 +50,13 @@ Container dashboardTile(Size screenSize, String title, String totalDate,
                       Text(
                         '$leaveDate',
                         style: TextStyle(
-                            fontSize: screenSize.height * 0.04,
+                            fontSize: screenSize.height * 0.038,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         ' /$totalDate',
                         style: TextStyle(
-                            fontSize: screenSize.height * 0.02,
+                            fontSize: screenSize.height * 0.018,
                             color: Colors.black54),
                       ),
                       SizedBox(
@@ -73,7 +73,7 @@ Container dashboardTile(Size screenSize, String title, String totalDate,
             '   $title',
             overflow: TextOverflow.ellipsis,
             style: TextStyle(
-                fontSize: screenSize.height * 0.015,
+                fontSize: screenSize.height * 0.014,
                 fontWeight: FontWeight.bold,
                 color: Colors.black38),
           )
